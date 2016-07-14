@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\GraphicEffect">
+      <UniqueIdentifier>{abbd35ca-3153-4f65-aa6d-2a97e546c14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GraphicEffect\GraphicEffect_H">
+      <UniqueIdentifier>{18e04df9-2fac-43fc-aaec-59f3bcbe6747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System_Class">
+      <UniqueIdentifier>{d1b4b8fe-fe66-41ca-9f20-3f5874ae596a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System_Class\System_Class_H">
+      <UniqueIdentifier>{e56d29c3-bff6-4413-ab27-7f08e232b0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー　ファイル">
+      <UniqueIdentifier>{e9cb1850-3fd6-40fc-b1f6-0ac9684c0906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System_Sound">
+      <UniqueIdentifier>{0cdfbe34-833d-451c-8e6d-7bf6270a802f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System_Sound\System_Sound_H">
+      <UniqueIdentifier>{c0fe1c71-9083-4327-8b39-626255269930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sys_Mode_Game">
+      <UniqueIdentifier>{64420253-c22c-41c4-a553-221025e7b8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sys_Mode_Title">
+      <UniqueIdentifier>{e9951437-43bf-41c9-a2d5-9383538a6238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sys_Mode_Result">
+      <UniqueIdentifier>{35a0464f-7bf6-4a3d-935e-f8a7fd6f51d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Class_Mgr">
+      <UniqueIdentifier>{6877a640-4571-4ab6-86e0-50dfb7901c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Player_Objects">
+      <UniqueIdentifier>{07d13023-8caf-43a1-acc5-2f4c8f7149c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Test_Objects">
+      <UniqueIdentifier>{fc909b65-bd5d-4b72-9462-c2ec8205f7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Test_Objects\Game_Test_Objects_H">
+      <UniqueIdentifier>{404261f5-be9d-40f4-bac2-fd3ca46511d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Player_Objects\Game_Player_Objects_H">
+      <UniqueIdentifier>{3b957978-575b-4b1b-8779-7dfd7d8de91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Class_Mgr\Game_Class_Mgr_H">
+      <UniqueIdentifier>{8ac9528b-2bf1-40c2-9280-09a6b62ce111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Ship_Objects">
+      <UniqueIdentifier>{542a52e8-f920-413f-abaa-a4b19515878d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_Ship_Objects\Game_Ship_Objects_H">
+      <UniqueIdentifier>{e5e22ebd-6353-4807-ab65-846cc6d53b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sys_Mode_Editor">
+      <UniqueIdentifier>{8f55467c-83c7-4f40-9c17-2b63d1a1b6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sys_Mode_Editor\Sys_Mode_Editor_H">
+      <UniqueIdentifier>{6fc4cd7d-c340-4b22-aad8-14dc826ee7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_UI_Class">
+      <UniqueIdentifier>{306fafa5-b9a9-4412-bbe7-ab71768e46ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game_UI_Class\Game_UI_Class_H">
+      <UniqueIdentifier>{22e2fe74-c883-403d-ab26-8b5fae40c68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System_Core">
+      <UniqueIdentifier>{a6207cf6-e041-499a-bd2f-733367acc552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System_Core\SystemProgram_H">
+      <UniqueIdentifier>{2a2add3e-60ef-46e2-849b-5d36fd4057e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sys_Main.cpp">
+      <Filter>ソース ファイル\System_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_Graphics.cpp">
+      <Filter>ソース ファイル\System_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_Input.cpp">
+      <Filter>ソース ファイル\System_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Physic.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_Shader.cpp">
+      <Filter>ソース ファイル\GraphicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Light.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Camera.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Model.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Primitive3D.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Task.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Task_List.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_Mgr_Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Sound_Mgr.cpp">
+      <Filter>ソース ファイル\System_Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Sound.cpp">
+      <Filter>ソース ファイル\System_Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C_3D_Test_model.cpp">
+      <Filter>ソース ファイル\Game_Test_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Test_Mgr.cpp">
+      <Filter>ソース ファイル\Game_Test_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Font.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="C_GameMgr_Player.cpp">
+      <Filter>ソース ファイル\Game_Player_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Light_Mgr.cpp">
+      <Filter>ソース ファイル\Game_Class_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Ship_Main.cpp">
+      <Filter>ソース ファイル\Game_Ship_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C_BLock.cpp">
+      <Filter>ソース ファイル\Game_Ship_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_UserDefinition.cpp">
+      <Filter>ソース ファイル\System_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C_ActiveBlock.cpp">
+      <Filter>ソース ファイル\Game_Ship_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_FileNameManger.cpp">
+      <Filter>ソース ファイル\System_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_Mode_Editor_Mgr.cpp">
+      <Filter>ソース ファイル\Sys_Mode_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Camera_Mgr.cpp">
+      <Filter>ソース ファイル\Game_Class_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EditorStModel_Mgr.cpp">
+      <Filter>ソース ファイル\Sys_Mode_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C_UI_Selection.cpp">
+      <Filter>ソース ファイル\Game_UI_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="C_UI_BlockMenu.cpp">
+      <Filter>ソース ファイル\Game_UI_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Primitive2D.cpp">
+      <Filter>ソース ファイル\System_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="C_UI_MessageBox.cpp">
+      <Filter>ソース ファイル\Game_UI_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_C_Messenger.cpp">
+      <Filter>ソース ファイル\Game_UI_Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sys_Global_Variable.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Graphics.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Include.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Input.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Macro.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Physic.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Light.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Shader.h">
+      <Filter>ソース ファイル\GraphicEffect\GraphicEffect_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Camera.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Model.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Primitive3D.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Task.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Task_List.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Mgr_Game.h">
+      <Filter>ヘッダー　ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Sound.h">
+      <Filter>ソース ファイル\System_Sound\System_Sound_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Sound_Mgr.h">
+      <Filter>ソース ファイル\System_Sound\System_Sound_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_3D_Test_model.h">
+      <Filter>ソース ファイル\Game_Test_Objects\Game_Test_Objects_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Test_Mgr.h">
+      <Filter>ソース ファイル\Game_Test_Objects\Game_Test_Objects_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Font.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_GameMgr_Player.h">
+      <Filter>ソース ファイル\Game_Player_Objects\Game_Player_Objects_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Light_Mgr.h">
+      <Filter>ソース ファイル\Game_Class_Mgr\Game_Class_Mgr_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_UserDefinition.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_FileNameManger.h">
+      <Filter>ソース ファイル\System_Core\SystemProgram_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_ActiveBlock.h">
+      <Filter>ソース ファイル\Game_Ship_Objects\Game_Ship_Objects_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Block.h">
+      <Filter>ソース ファイル\Game_Ship_Objects\Game_Ship_Objects_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Ship_Main.h">
+      <Filter>ソース ファイル\Game_Ship_Objects\Game_Ship_Objects_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Camera_Mgr.h">
+      <Filter>ソース ファイル\Game_Class_Mgr\Game_Class_Mgr_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_Mode_Editor_Mgr.h">
+      <Filter>ソース ファイル\Sys_Mode_Editor\Sys_Mode_Editor_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EditorStModel_Mgr.h">
+      <Filter>ソース ファイル\Sys_Mode_Editor\Sys_Mode_Editor_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_UI_Selection.h">
+      <Filter>ソース ファイル\Game_UI_Class\Game_UI_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_UI_BlockMenu.h">
+      <Filter>ソース ファイル\Game_UI_Class\Game_UI_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="C_UI_MessageBox.h">
+      <Filter>ソース ファイル\Game_UI_Class\Game_UI_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Primitive2D.h">
+      <Filter>ソース ファイル\System_Class\System_Class_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_C_Messenger.h">
+      <Filter>ソース ファイル\Game_UI_Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GraphicX\MultiLight.fx">
+      <Filter>ソース ファイル\GraphicEffect</Filter>
+    </None>
+  </ItemGroup>
+</Project>
